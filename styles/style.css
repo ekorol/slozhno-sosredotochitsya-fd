@@ -19,6 +19,7 @@ a:focus-visible {
 }
 
 .page {
+  background-color: #010028;
   display: grid;
   gap: 40px;
   padding: 0 10px;
@@ -371,7 +372,7 @@ a:focus-visible {
 }
 
 @media (width >= 1024px) {
-  
+
   .header__theme-menu {
     justify-items: center;
     align-content: start;
