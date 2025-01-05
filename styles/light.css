@@ -9,7 +9,7 @@
   --secondary-color: #353430;
   --cover-text-color: #ffc2e6;
   --secondary-title-color: #353430;
-  --cover-image: url(/images/cover-image-light.png);
+  --cover-image: url(../images/cover-image-light.png);
   --hover-theme-button: #32312d66;
   --theme-button-color: #353430;
 }
@@ -49,7 +49,7 @@
     --secondary-color: #353430;
     --cover-text-color: #ffc2e6;
     --secondary-title-color: #353430;
-    --cover-image: url(/images/cover-image-light.png);
+    --cover-image: url(../images/cover-image-light.png);
     --hover-theme-button: #32312d66;
     --theme-button-color: #353430;
   }
