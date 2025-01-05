@@ -371,7 +371,7 @@ a:focus-visible {
 }
 
 @media (width >= 1024px) {
-
+  
   .header__theme-menu {
     justify-items: center;
     align-content: start;
