@@ -14,6 +14,10 @@
   --theme-button-color: #353430;
 }
 
+.theme-light .page {
+  background-color: #fff2fb;
+}
+
 .theme-light .main__article-title {
   color: var(--secondary-title-color);
 }
@@ -53,6 +57,10 @@
     --hover-theme-button: #32312d66;
     --theme-button-color: #353430;
   }
+
+  .page {
+  background-color: #fff2fb;
+}
 
   .main__article-title {
     color: var(--secondary-title-color);
