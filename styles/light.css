@@ -5,12 +5,80 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #ff8dcb;
+  --secondary-color: #353430;
+  --cover-text-color: #ffc2e6;
+  --secondary-title-color: #353430;
+  --cover-image: url(/images/cover-image-light.png);
+  --hover-theme-button: #32312d66;
+  --theme-button-color: #353430;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .main__article-title {
+  color: var(--secondary-title-color);
+}
+
+.theme-light .header__record-text::before,
+.theme-light .header__record-text::after {
+  display: none;
+}
+
+.theme-light .header::before {
+  border: 1px solid var(--secondary-color);
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.theme-light .header::after {
+  border: 1px solid var(--secondary-color);
+  border-top: 0;
+  border-right: 0;
+}
+
+@media (width >= 1024px) {
+
+  .footer__cover-text {
+    text-shadow: 2px 2px #ff0070;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --accent-color: #ff8dcb;
+    --secondary-color: #353430;
+    --cover-text-color: #ffc2e6;
+    --secondary-title-color: #353430;
+    --cover-image: url(/images/cover-image-light.png);
+    --hover-theme-button: #32312d66;
+    --theme-button-color: #353430;
+  }
+
+  .main__article-title {
+    color: var(--secondary-title-color);
+  }
+
+  .header__record-text::before,
+  .header__record-text::after {
+    display: none;
+  }
+
+  .header::before {
+    border: 1px solid var(--secondary-color);
+    border-bottom: 0;
+    border-left: 0;
+  }
+
+  .header::after {
+    border: 1px solid var(--secondary-color);
+    border-top: 0;
+    border-right: 0;
+  }
+
+  @media (width >= 1024px) {
+
+    .footer__cover-text {
+      text-shadow: 2px 2px #ff0070;
+    }
+  }
 }
