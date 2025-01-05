@@ -22,7 +22,6 @@ a:focus-visible {
   background-color: #010028;
   display: grid;
   gap: 40px;
-  padding: 0 10px;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--cover-image);
   background-repeat: no-repeat;
@@ -36,7 +35,7 @@ a:focus-visible {
   grid-template-columns: 1fr;
   grid-template-rows: 0 1fr min-content 1fr;
   min-height: 100vh;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .header__record-text::before {
@@ -158,6 +157,7 @@ a:focus-visible {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
+  padding: 0 10px;
 }
 
 .main__article-title {
@@ -208,6 +208,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 0 10px;
 }
 
 .gallery__title {
@@ -242,14 +243,12 @@ a:focus-visible {
 }
 
 @media (width >= 768px) {
-
   .page {
     gap: 60px;
-    padding: 0 20px;
   }
 
   .header {
-    padding: 20px 0;
+    padding: 20px;
   }
 
   .header__record-text::before {
@@ -287,6 +286,7 @@ a:focus-visible {
 
   .main {
     gap: 60px;
+    padding: 0 20px;
   }
 
   .focus-hard {
@@ -326,6 +326,7 @@ a:focus-visible {
 
   .gallery {
     gap: 20px;
+    padding: 0 20px;
   }
 
   .gallery__images > img {
@@ -372,7 +373,6 @@ a:focus-visible {
 }
 
 @media (width >= 1024px) {
-
   .header__theme-menu {
     justify-items: center;
     align-content: start;
