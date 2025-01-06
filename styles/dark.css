@@ -12,8 +12,12 @@
   --accent-color: #ff0070;
   --secondary-color: #f1b2ce;
   --cover-text-color: #db00ff;
+  --article-title-color: #FF0070;
   --secondary-title-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
   --theme-button-color: #ff0070;
   --hover-theme-button: #ff007066;
+  --page-background-color: #010028;
+  --rec-border-color: #ff0070;
+  --footer-cover-text-shadow-ext: #ff0070;
 }
