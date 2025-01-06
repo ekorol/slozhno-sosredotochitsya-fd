@@ -25,7 +25,7 @@
 
 @media (prefers-color-scheme: light) {
 
-  :root.theme-light {
+  :root {
     --accent-color: #ff8dcb;
     --secondary-color: #353430;
     --cover-text-color: #ffc2e6;
@@ -39,8 +39,8 @@
     --footer-cover-text-shadow-ext: #ff0070;
   }
 
-  .theme-light .header__record-text::before,
-  .theme-light .header__record-text::after {
+  .theme-auto .header__record-text::before,
+  .theme-auto .header__record-text::after {
     display: none;
   }
 }
