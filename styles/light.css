@@ -9,7 +9,7 @@
   --secondary-color: #353430;
   --cover-text-color: #ffc2e6;
   --article-title-color: #353430;
-  --secondary-title-color: #000028;
+  --secondary-title-color: #353430;
   --cover-image: url(../images/cover-image-light.png);
   --hover-theme-button: #32312d66;
   --theme-button-color: #353430;
@@ -24,13 +24,13 @@
 }
 
 @media (prefers-color-scheme: light) {
-
+  
   :root {
     --accent-color: #ff8dcb;
     --secondary-color: #353430;
     --cover-text-color: #ffc2e6;
     --article-title-color: #353430;
-    --secondary-title-color: #000028;
+    --secondary-title-color: #353430;
     --cover-image: url(../images/cover-image-light.png);
     --hover-theme-button: #32312d66;
     --theme-button-color: #353430;
